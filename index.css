@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-image: url(./shawn-sim-9lfubBqLbRc-unsplash.jpg);
+    background-size: cover;
+
+}
+#container{
+    width: 90%;
+    position: relative;
+    height: 20vh;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateY(150%);
+}
+.keys{
+    display:inline-block;
+    padding: 6px;
+    text-align: center;
+    color: aliceblue;
+    margin: 10px;
+    width: 100px;
+    background-color: rgba(0, 0, 0,0.4);
+    border: 3px solid rgb(0, 0, 0);
+}
+.keychange{
+    margin: 8px;
+    transform: scale(1.1);
+    background-color:rgba(255,255,255,0);
+    border: 5px solid#fff643;
+    border-left: 5px solid #fff643;
+    border-right: 5px solid #fff643;
+    color: #fff643;
+    box-shadow: 0 0 1rem #fff643;
+}
+@keyframes change {
+    0%{
+        background-color:rgba(255,255,255);
+        border: 3px solid #fff643;
+        color:black;
+        width: 105px;
+    }
+    100%{
+        width: 100px;
+        color: aliceblue;
+        background-color: rgba(0, 0, 0,0.4);
+        border: 3px solid rgb(0, 0, 0);
+    }
+}
