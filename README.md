@@ -1,3 +1,3 @@
 # Drum
 
-https://manish-nmr.github.io/Drum/
+https://manishNMR.github.io/Drum/
